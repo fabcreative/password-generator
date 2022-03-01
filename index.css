@@ -206,7 +206,7 @@ hr {
     .box {
         padding-left: 20px;
         width: 414px;
-        height: 100%;
+        height: 100vh;
     }
 
     .passwordGrid {
