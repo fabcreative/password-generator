@@ -210,47 +210,51 @@ hr {
     }
 
     .passwordGrid {
-        position: absolute;
+        position: relative;
         display: grid;
+        justify-content: center;
         grid-template-columns: 211px;
         grid-template-rows: 39px 39px 39px 39px;
-        top: 399px;
+        top: 310px;
         column-gap: 27px;
-        row-gap: 27px;
+        row-gap: 20px;
     }
 
     .buttonGrid {
-        position: absolute;
+        position: relative;
         display: grid;
+        justify-content: center;
         grid-template-columns: 211px;
         grid-template-rows: 42px 42px;
         top: 250px;
+        row-gap: 15px;
       
     }
       
     h1 {
-        top: 80px;
+        top: 60px;
     }
 
     p {
-        top: 170px;
+        top: 150px;
     }
 
 
     button{
         width: 95%;
+
     }
 
     input {
-        width: 75%;
+        width: 80%;
     }
 
     hr {
      
-        width: 64%;
+        width: 370px;
     }
 
-    .passwordGrid {
+    /* .passwordGrid {
         column-gap: 10px;
         row-gap: 20px;
       
@@ -260,5 +264,5 @@ hr {
         column-gap: 10px;
         row-gap: 20px;
       
-    }
+    } */
 }
