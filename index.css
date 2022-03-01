@@ -217,7 +217,7 @@ hr {
         grid-template-rows: 39px 39px 39px 39px;
         top: 310px;
         column-gap: 27px;
-        row-gap: 20px;
+        row-gap: 30px;
     }
 
     .buttonGrid {
@@ -232,16 +232,17 @@ hr {
     }
       
     h1 {
-        top: 60px;
+        top: 40px;
     }
 
     p {
-        top: 150px;
+        top: 130px;
     }
 
 
     button{
         width: 95%;
+        padding: 5px;
 
     }
 
@@ -254,15 +255,4 @@ hr {
         width: 370px;
     }
 
-    /* .passwordGrid {
-        column-gap: 10px;
-        row-gap: 20px;
-      
-    }
-
-    .buttonGrid {
-        column-gap: 10px;
-        row-gap: 20px;
-      
-    } */
 }
