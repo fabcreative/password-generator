@@ -201,10 +201,11 @@ hr {
     display: inline-block;
   }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 375px) {
 
     .box {
         padding-left: 40px;
+        width: 375px;
     }
 
 
