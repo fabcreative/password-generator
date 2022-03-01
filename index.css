@@ -201,18 +201,41 @@ hr {
     display: inline-block;
   }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 600px) {
 
     .box {
-        padding-left: 40px;
-        width: 375px;
+        padding-left: 20px;
+        width: 414px;
+        height: 100%;
     }
 
-
-    .password{
-        width: 94%;
-        margin-right: 0;
+    .passwordGrid {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 211px;
+        grid-template-rows: 39px 39px 39px 39px;
+        top: 399px;
+        column-gap: 27px;
+        row-gap: 27px;
     }
+
+    .buttonGrid {
+        position: absolute;
+        display: grid;
+        grid-template-columns: 211px;
+        grid-template-rows: 42px 42px;
+        top: 250px;
+      
+    }
+      
+    h1 {
+        top: 80px;
+    }
+
+    p {
+        top: 170px;
+    }
+
 
     button{
         width: 95%;
@@ -224,7 +247,7 @@ hr {
 
     hr {
      
-        width: 83.5%;
+        width: 64%;
     }
 
     .passwordGrid {
